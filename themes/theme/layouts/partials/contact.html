@@ -5,7 +5,12 @@
             <h2>{{ .Site.Data.homepage.contact.title }}</h2>
             <div class="row pt-2">
                 <div class="col-12 col-lg-7">
-                    <form action="{{ .Site.Data.homepage.contact.form.action }}" method="{{ .Site.Data.homepage.contact.form.method }}">
+                    <!--Google map-->
+                    <div class="map">
+                        <iframe width="350" height="300" id="maps" src="https://maps.google.com/maps?q=Hamburg&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                    </div>
+  <!--Google Maps-->
+                    <!--<form action="{{ .Site.Data.homepage.contact.form.action }}" method="{{ .Site.Data.homepage.contact.form.method }}">
                         <div class="row">
                             <div class="col-12 col-sm-6">
                                 <input type="text" name="" id="full_name"
@@ -30,7 +35,7 @@
                                 </button>
                             </div>
                         </div>
-                    </form>
+                    </form>-->
                 </div>
                 <div class="col-12 col-lg-5 contact__info">
                     <h4>{{ .Site.Data.homepage.contact.phone.title }}</h4>

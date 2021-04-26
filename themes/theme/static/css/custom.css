@@ -1,0 +1,13 @@
+/* You can customize theme styles here */
+
+.header .navbar-brand span:first-child {
+    color: #00C6B5;
+}
+
+.experience__company {
+    color: #00C6B5;
+}
+
+.testimonial__author-info span {
+    color: #00C6B5;
+}

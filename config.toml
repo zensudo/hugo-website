@@ -1,0 +1,70 @@
+baseURL = "https://juliangerber.de/"
+languageCode = "de-de"
+theme = "theme"
+
+# Plugins
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "css/main.css"
+  [[params.plugins.css]]
+  URL = "css/rad-icons.css"
+  [[params.plugins.css]]
+  URL = "css/custom.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "js/rad-animations.js"
+  [[params.plugins.js]]
+  URL = "js/sticky-header.js"
+  [[params.plugins.js]]
+  URL = "js/library/fontfaceobserver.js"
+
+
+# navigation
+[menu]
+
+  [[menu.header]]
+  name = "Über mich"
+  URL = "#about"
+  weight = 2
+
+  [[menu.header]]
+  name = "Projekte"
+  URL = "#portfolio"
+  weight = 3
+
+   [[menu.header]]
+  name = "Kontakt"
+  URL = "#contact"
+  weight = 4
+
+
+  [[menu.footer]]
+  name = "Impressum"
+  URL = "#about"
+  weight = 1
+
+  [[menu.footer]]
+  name = "Datenschutz"
+  URL = "#portfolio"
+  weight = 2
+
+
+[params]
+
+  sections = ["showcase", "about", "education", "experience", "client-and-work", "testimonial", "contact", "newsletter"]
+
+  googleTagManagerID = "GTM-WHXP3DF" # Google Analytics works with Google Tag Manager
+
+  [params.logo]
+    text1 = "Julian Gerber"
+    text2 = "Ofizielle Website"
+
+  [params.footer]
+      copyright = "© 2021 - Alle Rechte vorbehalten"
+      [params.footer.radity_logo]
+        x = "img/general/logo-footer.png"
+        _2x = "img/general/logo-footer@2x.png"
+        alt = "Julian Gerber"

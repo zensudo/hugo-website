@@ -1,0 +1,246 @@
+# homepage
+homepage:
+  head:
+    title: "Julian Gerber"
+# showcase
+showcase:
+  enable: true
+  title: "Neuer Podcast:"
+  subtitle: "Soulfood & Deeptalk"
+  description: "Im direkten Dialog sprechen die unterschiedlichen Gäste über persönliche Erfahrungen, gesellschaftliche Themen oder aktuelle Technologien. - Der Podcast zu Themen, die uns bewegen."
+  image:
+    alt: "Podcast Soulfood & Deeptalk"
+    x: "img/showcase/showcase.png"
+    _2x: "img/showcase/showcase@2x.png"
+  imageMobile:
+    alt: "Podcast Soulfood & Deeptalk"
+    x: "img/showcase/showcase-mobile.jpg"
+
+  button:
+    icon: ""
+    btnText: "Zum Podcast"
+    URL: "http://soulfood.cc/"
+
+  socialLinks:
+    - icon: "instagram"
+      URL: "https://instagram.com/jatsby_"
+
+    - icon: "facebook"
+      URL: "https://www.facebook.com/jatsby.de"
+
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/company/radity/"
+
+    - icon: "github"
+      URL: "https://zensudo.de/"
+
+    - icon: "twitter"
+      URL: "https://twitter.com/jatsby_"
+
+    - icon: "youtube"
+      URL: "https://www.youtube.com/channel/UCojEc6SPO-W1_CoeHhK9-Zw"  
+
+# about
+about:
+  enable: true
+  title: "Über mich"
+  content: '<p class="lead">
+    Ich wohne in Hamburg und arbeite dort als Informatiker in einem namhaften Zeitschriftenverlag.
+    Privat hatte ich schon früh eine große Affinität zu Mediendesign, Startups & Technik.
+    Egal ob als Informatiker oder Geschäftsführer, ich versuche mich stetig weiter zu entwickeln
+    und schätze bei jedem meiner Projekte eine offene Einstellung, Kreativität und Teamwork.
+    In meinem aktuellen Podcast spreche ich mit unterschiedlichen Gästen gerne über aktuelle
+    und bewegende Themen. 
+ 
+    </p>'
+  button:
+    icon: "icon-smile-fill"
+    btnText: "Zum XING Profil"
+    URL: "https://www.linkedin.com/company/radity/"
+  image:
+    x: "img/who-am-i/user-picture.png"
+    _2x: "img/who-am-i/user-picture@2x.png"
+
+# education
+education:
+  enable: true
+  title: "Aktuelle Vita"
+  items:
+    - university: "COANOA UG (haftungsbeschränkt)"
+      year: "2019-2021"
+      degree: "Gründer & Geschäftsführer"
+
+    - university: "KLAMBT-Verlag GmbH & Co. KG"
+      year: "2012-2021"
+      degree: "IT-Administrator"
+
+# experience
+experience:
+  enable: true
+  title: "Zertifizierungen"
+  description: "Nach über 9 Jahren Berufserfahrung in der IT kann ich auf eine
+  vielzahl an Zertifizierungen zurückblicken. Unter Anderem bin ich Ausbilder
+  nach der Ausbilder-Eignungsverordnung durch die IHK Hamburg. Aber auch an Schulungen, die über
+  den IT-Bereich hinaus gehen, nehme ich gerne teil. Somit bin beispielsweise im
+  Besitz einer Fitnesstrainer C-Lizenz oder einer Drohnen-Fluglizenz der Klasse A1/A3."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/julian-gerber/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download My Resume"
+    URL: "#"
+
+  items:
+    - title: "JAMF Certified Administrator"
+      company: "JAMF Holdings, Inc."
+      duration: "Nov 2018"
+
+    - title: "CODE42 Certified Administrator"
+      company: "Code 42 Software, Inc."
+      duration: "Mar 2018"
+
+    - title: "macOS Support Essentials 10.15"
+      company: "Apple Inc."
+      duration: "Nov 2020"
+
+# Client & Work
+client_and_work:
+  title: "Referenzen & Projekte"
+  enable: true
+
+  clients:
+    - logo:
+        x: "img/clients/asgardia.png"
+        _2x: "img/clients/asgardia@2x.png"
+      alt: "Asgardia"
+
+    - logo:
+        x: "img/clients/earth-2.png"
+        _2x: "img/clients/earth-2@2x.png"
+      alt: "Earth 2.0"
+
+    - logo:
+        x: "img/clients/goldline.png"
+        _2x: "img/clients/goldline@2x.png"
+      alt: "Goldline"
+
+    - logo:
+        x: "img/clients/kanba.png"
+        _2x: "img/clients/kanba@2x.png"
+      alt: "Kanba"
+
+    - logo:
+        x: "img/clients/zoo-tv.png"
+        _2x: "img/clients/zoo-tv@2x.png"
+      alt: "Zoo"
+
+    - logo:
+        x: "img/clients/ztos.png"
+        _2x: "img/clients/ztos@2x.png"
+      alt: "Ztos"
+
+  works:
+    - title: "COANOA"
+      description: "COANOA ist ein Onlineshop der neuesten Generation mit Design- & Lifestyle
+      Artikeln so wie Geschenkartikeln."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Zum Shop"
+        URL: "https://coanoa.de"
+      image:
+        x: "img/works/coanoa-shop.jpg"
+        _2x: "img/works/coanoa-shop@2x.jpg"
+      is_even: true
+
+    - title: "JATSBY"
+      description: "Artist-Profil als Textwriter und Rapper.
+      Die Songs sind auf allen bekannten Streaming-Plattformen verfügbar."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Zu Spotify"
+        URL: "https://open.spotify.com/artist/1DTrlMhgWzeAea2ThF3NI0?si=u_jdQ1maQra6jRUPAd3vMA&nd=1"
+      image:
+        x: "img/works/jatsby-spotify.jpg"
+        _2x: "img/works/jatsby-spotify@2x.jpg"
+      is_even: false
+
+    - title: "Twitch.tv"
+      description: "Als Streamer hat man die Möglichkeit, Content nach
+      seinen eigenen Vorstellungen zu gestalten."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Zu Twitch.tv"
+        URL: "https://www.twitch.tv/jatsby_"
+      image:
+        x: "img/works/jatsby-twitch.jpg"
+        _2x: "img/works/jatsby-twitch@2x.jpg"
+      is_even: true
+
+# testimonial
+testimonial:
+  enable: true
+  title: "Kompetenzen"
+  items:
+    - name: "Informatik"
+      position: "#mdm #server #script #cloud"
+      content: "Als Informatiker arbeite ich überwiegend im Bereich Device-Management. Insbesondere die Verwaltung
+      von rund 650 macOS und iOS Geräten bilden hier den Schwerpunkt. Privat setzte ich mich gerne mit Web- & Cloud-Techniken
+      auseinander. Neben der Server- und VM-Verwaltung automatisiere ich mit Shell-Skripten gerne den ein oder
+      anderen Arbeitsablauf."
+      image:
+        x: "https://cdn0.iconfinder.com/data/icons/devices-42/512/Macbook-256.png"
+        _2x: "https://cdn0.iconfinder.com/data/icons/devices-42/512/Macbook-256.png"
+
+    - name: "Design"
+      position: "#logos #webdesign #photoshop"
+      content: "Wann immer möglich, lasse ich meiner Kreativität freien lauf. Gerne überlege ich mir in meiner Freizeit neue grafische
+      Aufbauten für meine eigenen Projekte oder erstelle Logos und Grafiken für Firmen und Freunde. Von klassischer
+      Bildbearbeitung bis hin zu App- oder Webdesign habe ich bereits viele Projekte erstellt oder auf die Bedürfnisse
+      der Kunden angepasst. Ein gutes Design ist für mich in jeder Hinsicht essentiell."
+      image:
+        x: "https://cdn3.iconfinder.com/data/icons/art-and-design-tools-1/128/Compasses-256.png"
+        _2x: "https://cdn3.iconfinder.com/data/icons/art-and-design-tools-1/128/Compasses-256.png"
+
+    - name: "Kreativität"
+      position: "#startup #medien #zukunft"
+      content: "Kreativität ist für mich einer der wichtigesten Aspekte meiner Arbeiten. Häuflig lassen sich gerade in
+      der IT erst durch kreative Ideen sinnvolle Lösungsansätze finden. Doch egal ob redaktionelle Inhalte oder Musik- und Videoproduktion,
+      wenn es um digitale Inhalte geht, lasse ich meiner Krativität gerne freien lauf. Ich interessiere mich besonders für neue
+      Technologien und zukunftsorientierte Startups."
+      image:
+        x: "https://cdn0.iconfinder.com/data/icons/colourful-education/250/bulb-256.png"
+        _2x: "https://cdn0.iconfinder.com/data/icons/colourful-education/250/bulb-256.png"
+
+# contact
+contact:
+  enable: true
+  title: "Kontakt"
+  form:
+    method: "POST"
+    action: "contact.php"
+    full_name: "Name"
+    email: "Email"
+    message: "Deine Nachricht"
+  phone:
+    title: "Made with ♥ in"
+    number: "Hamburg, Germany"
+  email:
+    title: "E-Mail"
+    email: '<a href="mailto:kontakt@juliangerber.de">kontakt@juliangerber.de</a>'
+  address:
+    title: "Wichtige Links"
+    address: '<a href="https://juliangerber.de/impressum">Impressum</a> | 
+    <a href="https://juliangerber.de/datenschutz">Datenschutz</a>'
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Nachricht senden"
+
+# newsletter
+newsletter:
+  enable: false
+  title: "Newsletter abonnieren"
+  success_message: "Erfolgreich abonniert"
+  error_message: "Irgendetwas ist schief gelaufen."
+  note: "Abonniere den Newsletter von COANOA"

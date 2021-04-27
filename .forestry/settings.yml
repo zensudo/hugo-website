@@ -5,8 +5,8 @@ admin_path: hugoadmin
 webhook_url: 
 sections:
 - type: directory
-  path: content
-  label: root
+  path: content/pages
+  label: pages
   create: all
   match: "**/*"
 - type: directory

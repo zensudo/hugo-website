@@ -7,7 +7,8 @@ showcase:
   enable: true
   title: "Neuer Podcast:"
   subtitle: "Soulfood & Deeptalk"
-  description: "Im direkten Dialog sprechen die unterschiedlichen Gäste über persönliche Erfahrungen, gesellschaftliche Themen oder aktuelle Technologien. - Der Podcast zu Themen, die uns bewegen."
+  description: "In den regelmäßigen Folgen spreche ich mit meinen Gästen über gesellschaftliche Themen 
+  und ihre ganz persönlichen Erfahrungen.</br></br>Der Podcast zu Themen, die uns bewegen."
   image:
     alt: "Podcast Soulfood & Deeptalk"
     x: "img/showcase/showcase.png"
@@ -43,15 +44,13 @@ showcase:
 # about
 about:
   enable: true
-  title: "Über mich"
+  title: "Hallo, ich bin Julian"
   content: '<p class="lead">
-    Ich wohne in Hamburg und arbeite dort als Informatiker in einem namhaften Zeitschriftenverlag.
+    und wohne zurzeit in Hamburg, dort arbeite ich als Informatiker für einen Zeitschriftenverlag.
     Privat hatte ich schon früh eine große Affinität zu Mediendesign, Startups & Technik.
-    Egal ob als Informatiker oder Geschäftsführer, ich versuche mich stetig weiter zu entwickeln
-    und schätze bei jedem meiner Projekte eine offene Einstellung, Kreativität und Teamwork.
-    In meinem aktuellen Podcast spreche ich mit unterschiedlichen Gästen gerne über aktuelle
-    und bewegende Themen. 
- 
+    </br></br>Egal ob beruflich oder privat, ich versuche mich stetig weiter zu entwickeln
+    und schätze bei jedem meiner Projekte eine offene Einstellung, Kreativität und Teamwork.</br></br>
+    Gerne können wir uns auch auf XING vernetzen.
     </p>'
   button:
     icon: "icon-smile-fill"
@@ -78,19 +77,19 @@ education:
 experience:
   enable: true
   title: "Zertifizierungen"
-  description: "Nach über 9 Jahren Berufserfahrung in der IT kann ich auf eine
+  description: "Nach über 9 Jahren Berufserfahrung in der IT, kann ich auf eine
   vielzahl an Zertifizierungen zurückblicken. Unter Anderem bin ich Ausbilder
   nach der Ausbilder-Eignungsverordnung durch die IHK Hamburg. Aber auch an Schulungen, die über
   den IT-Bereich hinaus gehen, nehme ich gerne teil. Somit bin beispielsweise im
   Besitz einer Fitnesstrainer C-Lizenz oder einer Drohnen-Fluglizenz der Klasse A1/A3."
   button:
     icon: "icon-linkedin-fill"
-    btnText: "Linkedin"
+    btnText: "Mehr auf Linkedin"
     URL: "https://www.linkedin.com/in/julian-gerber/"
-  button2:
-    icon: "icon-profile-fill"
-    btnText: "Download My Resume"
-    URL: "#"
+  #button2:
+   # icon: "icon-profile-fill"
+    #btnText: "Download My Resume"
+    #URL: "#"
 
   items:
     - title: "JAMF Certified Administrator"
@@ -142,9 +141,9 @@ client_and_work:
       alt: "Ztos"
 
   works:
-    - title: "COANOA"
-      description: "COANOA ist ein Onlineshop der neuesten Generation mit Design- & Lifestyle
-      Artikeln so wie Geschenkartikeln."
+    - title: "COANOA UG (haftungsbeschränkt)"
+      description: "COANOA ist ein Onlineshop der neuesten Generation für Design- & Lifestyle
+      Produkte so wie Geschenkartikel."
       button:
         icon: "icon-arrow-right"
         btnText: "Zum Shop"
@@ -154,21 +153,21 @@ client_and_work:
         _2x: "img/works/coanoa-shop@2x.jpg"
       is_even: true
 
-    - title: "JATSBY"
+    - title: "JATSBY (Künstlername)"
       description: "Artist-Profil als Textwriter und Rapper.
       Die Songs sind auf allen bekannten Streaming-Plattformen verfügbar."
       button:
         icon: "icon-arrow-right"
-        btnText: "Zu Spotify"
-        URL: "https://open.spotify.com/artist/1DTrlMhgWzeAea2ThF3NI0?si=u_jdQ1maQra6jRUPAd3vMA&nd=1"
+        btnText: "Zur Website"
+        URL: "https://jatsby.de"
       image:
         x: "img/works/jatsby-spotify.jpg"
         _2x: "img/works/jatsby-spotify@2x.jpg"
       is_even: false
 
-    - title: "Twitch.tv"
-      description: "Als Streamer hat man die Möglichkeit, Content nach
-      seinen eigenen Vorstellungen zu gestalten."
+    - title: "Twitch.tv / Youtube"
+      description: "Von Reiseblog bis Gaming-Live-Stream findet sich eine menge Content
+      in den privaten Video-Kanälen."
       button:
         icon: "icon-arrow-right"
         btnText: "Zu Twitch.tv"
@@ -195,8 +194,8 @@ testimonial:
 
     - name: "Design"
       position: "#logos #webdesign #photoshop"
-      content: "Wann immer möglich, lasse ich meiner Kreativität freien lauf. Gerne überlege ich mir in meiner Freizeit neue grafische
-      Aufbauten für meine eigenen Projekte oder erstelle Logos und Grafiken für Firmen und Freunde. Von klassischer
+      content: "Wann immer möglich, lasse ich meiner Kreativität freien lauf. Gerne überarbeite ich in meiner Freizeit den visuelle
+      Aufbau meiner eigenen Projekte oder erstelle Logos und Grafiken für Firmen und Freunde. Von klassischer
       Bildbearbeitung bis hin zu App- oder Webdesign habe ich bereits viele Projekte erstellt oder auf die Bedürfnisse
       der Kunden angepasst. Ein gutes Design ist für mich in jeder Hinsicht essentiell."
       image:
@@ -205,9 +204,9 @@ testimonial:
 
     - name: "Kreativität"
       position: "#startup #medien #zukunft"
-      content: "Kreativität ist für mich einer der wichtigesten Aspekte meiner Arbeiten. Häuflig lassen sich gerade in
-      der IT erst durch kreative Ideen sinnvolle Lösungsansätze finden. Doch egal ob redaktionelle Inhalte oder Musik- und Videoproduktion,
-      wenn es um digitale Inhalte geht, lasse ich meiner Krativität gerne freien lauf. Ich interessiere mich besonders für neue
+      content: "Kreativität ist für mich einer der wichtigsten Aspekte in meiner Arbeit. Häufig lassen sich in
+      der IT erst durch kreative Ideen, sinnvolle Lösungsansätze finden. Doch egal ob redaktionelle Inhalte oder Musik- und Videoproduktion,
+      wenn es um digitalen Content geht, lasse ich meiner Krativität gerne freien lauf. Ich interessiere mich besonders für neue
       Technologien und zukunftsorientierte Startups."
       image:
         x: "https://cdn0.iconfinder.com/data/icons/colourful-education/250/bulb-256.png"

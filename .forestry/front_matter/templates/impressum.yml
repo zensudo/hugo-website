@@ -19,3 +19,4 @@ fields:
   hidden: false
 pages:
 - content/pages/impressum.md
+- content/posts/Post_01.md

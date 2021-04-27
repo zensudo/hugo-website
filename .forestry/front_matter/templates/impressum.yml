@@ -17,3 +17,5 @@ fields:
       format: markdown
   label: Text
   hidden: false
+pages:
+- content/pages/impressum.md

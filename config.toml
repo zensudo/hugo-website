@@ -6,17 +6,17 @@ URL = "#portfolio"
 name = "Datenschutz"
 weight = 2
 [[menu.header]]
-URL = "#contact"
-name = "Kontakt"
-weight = 3
+URL = "#about"
+name = "Über mich"
+weight = 1
 [[menu.header]]
 URL = "#portfolio"
 name = "Projekte"
 weight = 2
 [[menu.header]]
-URL = "#about"
-name = "Über mich"
-weight = 1
+URL = "#contact"
+name = "Kontakt"
+weight = 3
 [params]
 googleTagManagerID = "GTM-WHXP3DF"
 sections = ["showcase", "about", "education", "experience", "client-and-work", "testimonial", "contact", "newsletter"]

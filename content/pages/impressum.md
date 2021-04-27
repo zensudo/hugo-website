@@ -1,6 +1,6 @@
 +++
 headline = "impressum"
-text = "test"
+text = "irgendeine Seite\n\nTest\nHaloo"
 [menu.footer]
 URL = "#about"
 name = "Impressum"

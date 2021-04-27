@@ -16,7 +16,7 @@ sections:
   match: "**/*"
 - type: directory
   path: content/posts
-  label: Posts
+  label: posts
   create: all
   match: "**/*"
 upload_dir: static/upload

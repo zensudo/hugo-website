@@ -229,9 +229,8 @@ contact:
     title: "E-Mail"
     email: '<a href="mailto:kontakt@juliangerber.de">kontakt@juliangerber.de</a>'
   address:
-    title: "Wichtige Links"
-    address: '<a href="https://juliangerber.de/impressum">Impressum</a> | 
-    <a href="https://juliangerber.de/datenschutz">Datenschutz</a>'
+    title: ""
+    address: ''
   button:
     icon: "icon-mail-fill"
     btnText: "Nachricht senden"

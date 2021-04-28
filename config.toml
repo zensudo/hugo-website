@@ -2,8 +2,12 @@ baseURL = "https://juliangerber.de/"
 languageCode = "de-de"
 theme = "theme"
 [[menu.footer]]
-URL = "#portfolio"
+URL = "https://juliangerber.de/datenschutz"
 name = "Datenschutz"
+weight = 2
+[[menu.footer]]
+URL = "https://juliangerber.de/impressum"
+name = "Impressum"
 weight = 1
 [[menu.header]]
 URL = "#about"

@@ -17,6 +17,3 @@ fields:
       format: markdown
   label: Text
   hidden: false
-pages:
-- content/pages/impressum.md
-- content/posts/Post_01.md

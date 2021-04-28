@@ -4,7 +4,7 @@ theme = "theme"
 [[menu.footer]]
 URL = "#portfolio"
 name = "Datenschutz"
-weight = 2
+weight = 1
 [[menu.header]]
 URL = "#about"
 name = "Über mich"

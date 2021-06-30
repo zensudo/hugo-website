@@ -9,7 +9,7 @@
         <div class="clients">
           {{ range .Site.Data.homepage.client_and_work.clients }}
           <div class="clients__item">
-            <a href="#">
+            <!--<a href="#" target="_blank">-->
               <img
                 class="lozad img-responsive"
                 src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
@@ -17,7 +17,7 @@
                 data-srcset="{{ .logo.x | absURL }} 1x, {{ .logo._2x | absURL }} 2x"
                 alt="{{ .alt }}"
               />
-            </a>
+            <!--</a>-->
           </div>
           {{ end }}
         </div>

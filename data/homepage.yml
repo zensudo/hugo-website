@@ -114,6 +114,7 @@ client_and_work:
         x: "img/clients/asgardia.png"
         _2x: "img/clients/asgardia@2x.png"
       alt: "Asgardia"
+      URL: [https://open.spotify.com/show/6qxQ08sZ8pIwDyOU9rOVkU]
 
     - logo:
         x: "img/clients/earth-2.png"
